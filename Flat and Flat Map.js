@@ -26,7 +26,7 @@ const account1 = {
     interestRate: 0.7,
     pin: 333,
   };
-  
+   
   const account4 = {
     owner: 'Deepanshi',
     movements: [430, 1000, 700, 50, 90],
