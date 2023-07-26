@@ -40,3 +40,11 @@ const account1 = {
   console.log(accountsCalculation)
   const allMovements = accountsCalculation.flat()
   console.log(allMovements) 
+
+// Flat method   
+  const overallBalance = accounts.map(acc => acc.movements).flat().reduce((acc, mov) => acc + mov, 0)
+  console.log('Flat method:',overallBalance)
+
+// Flat Map method
+const overallBALANCE = accounts.flatMap(acc => acc.movements).flat().reduce((acc, mov) => acc + mov, 0)
+console.log('FlatMap:',overallBALANCE)
