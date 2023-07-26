@@ -35,3 +35,9 @@ const account1 = {
   };
 
   const accounts = [account1, account2, account3, account4];
+
+  const accountsCalculation = accounts.map(acc => acc.movements)
+  console.log(accountsCalculation)
+  const allMovements = accountsCalculation.flat()
+  console.log(allMovements)
+  
