@@ -39,5 +39,4 @@ const account1 = {
   const accountsCalculation = accounts.map(acc => acc.movements)
   console.log(accountsCalculation)
   const allMovements = accountsCalculation.flat()
-  console.log(allMovements)
-  
+  console.log(allMovements) 
