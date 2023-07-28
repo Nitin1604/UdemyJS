@@ -6,6 +6,7 @@ console.log('flatArr:',flatArr.flat())
 const flatInnerArr = [[[1, 2],3], [4, [5, 6]], 7, 8] 
 console.log('flarInnerArr:',flatInnerArr.flat())     
 
+// Account1 for Himanshi
 const account1 = {
     owner: 'Himanshi',
     movements: [164, 156, -123, 2000, -189, -130, 70, 1300],
@@ -13,6 +14,7 @@ const account1 = {
     pin: 111,
   };
   
+  // Account2 for Himanshu
   const account2 = {
     owner: 'Himanshu',
     movements: [5000, 3123, -150, -790, -3210, -1000, 8500, -30],
@@ -20,13 +22,15 @@ const account1 = {
     pin: 222,
   };
   
+  // Account3 for Deepanshu
   const account3 = {
     owner: 'Deepanshu',
     movements: [164, -164, 340, -300, -20, 50, 123, -460],
     interestRate: 0.7,
     pin: 333,
   };
-   
+  
+  // Account4 for Deepanshi
   const account4 = {
     owner: 'Deepanshi',
     movements: [430, 1000, 700, 50, 90],
